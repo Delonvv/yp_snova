@@ -16,8 +16,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using UPDesctop.Core.Entities;
-using UPDesctop.Core.Persistence;
+using ForClass.Entities;
+using ForClass.Persistence;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
 
