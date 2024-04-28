@@ -8,19 +8,20 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="WorkerRequest">
 
-    <Grid Background="Gray">
-        <Label Content="Работа с заявками" Foreground="White" FontSize="26" Height="53" VerticalAlignment="Top" HorizontalAlignment="Left" Width="232" Margin="36,10,0,0"/>
+    <Grid Background="Aqua">
 
-        <DataGrid x:Name="dtRequests" Margin="36,74,0,54" HorizontalAlignment="Left" Width="274"/>
-        <Button Margin="638,16,10,0" Click="Exit" Height="42" VerticalAlignment="Top" Content="Выйти" Background="White" FontSize="16" />
+        <DataGrid x:Name="dtRequests" Margin="10,16,0,112" HorizontalAlignment="Left" Width="579"/>
+        <Button Margin="725,16,10,0" Click="Exit" Height="28" VerticalAlignment="Top" Content="Выход" Background="White" FontSize="16" />
 
-        <ComboBox x:Name="combIds" Margin="348,114,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
-        <Label Content="Заяка" Foreground="White" FontSize="16" Margin="348,74,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
-        <ComboBox x:Name="combWorkers" Margin="348,204,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
-        <Label Content="Работник" Foreground="White" FontSize="16" Margin="348,161,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
-        <TextBox x:Name="tbHistory" Text="Комментарий" FontSize="16" Margin="348,265,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
-        <Button Margin="575,114,0,0" Click="Otchet" Height="44" VerticalAlignment="Top" Content="Сформировать отчёт" Background="White" FontSize="16" HorizontalAlignment="Left" Width="206" />
-        <Button Margin="575,265,19,0" Click="Comment" Height="44" VerticalAlignment="Top" Content="Оставить комментарий" Background="White" FontSize="16" />
-        <TextBox x:Name="tbTime" Text="Потраченное время" FontSize="16" Margin="348,323,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
+        <ComboBox x:Name="combIds" Margin="23,365,0,0" Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" Width="144"/>
+        <Label Content="Заяка" Foreground="Black" FontSize="16" Margin="23,338,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
+        <ComboBox x:Name="combWorkers" Margin="194,366,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="124"/>
+        <Label Content="Работник" Foreground="Black" FontSize="16" Margin="194,338,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="206"/>
+        <TextBox x:Name="tbHistory" Text="" FontSize="16" Margin="341,364,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
+        <Button Margin="609,81,0,0" Click="Otchet" Height="36" VerticalAlignment="Top" Content="Сформировать отчёт" Background="White" FontSize="16" HorizontalAlignment="Left" Width="172" />
+        <Button Margin="280,410,314,0" Click="Comment" Height="30" VerticalAlignment="Top" Content="Оставить комментарий" Background="White" FontSize="16" />
+        <TextBox x:Name="tbTime" Text=" " FontSize="16" Margin="535,364,0,0" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="160"/>
+        <Label Content="Комментарий" HorizontalAlignment="Left" Margin="341,338,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Время" HorizontalAlignment="Left" Margin="535,338,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>
