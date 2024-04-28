@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using UPDesctop.Core.Persistence;
+using ForClass.Persistence;
 
 namespace UPDesckop.Pages
 {
@@ -48,13 +48,13 @@ namespace UPDesckop.Pages
                         if (user.Role == "Manager")
                             mainWindow.OpenPage(MainWindow.pages.managerPage);
                     }
-                    else MessageBox.Show("Такого юзера не существует");
+                    else MessageBox.Show("пользователь не найден");
                 }
                 else
-                MessageBox.Show("Введите пасс");
+                    MessageBox.Show("не введен пароль");
             }
             else
-            MessageBox.Show("Введите логин");
+                MessageBox.Show("не введен логин");
         }
     }
 }

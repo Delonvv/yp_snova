@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using UPDesctop.Core.Persistence;
+using ForClass.Persistence;
 
 namespace UPDesckop.Pages
 {
