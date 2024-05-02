@@ -8,10 +8,10 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="HistoriesPage">
 
-    <Grid Background="Gray">
-        <Label Content="Истории" Foreground="White" FontSize="26" Height="53" VerticalAlignment="Top" HorizontalAlignment="Left" Width="232" Margin="36,10,0,0"/>
+    <Grid Background="Aqua">
+        <Label Content="Истории" Foreground="Black" FontSize="26" Height="53" VerticalAlignment="Top" HorizontalAlignment="Left" Width="232" Margin="36,10,0,0"/>
 
-        <DataGrid x:Name="dtRequests" Margin="36,74,207,54"/>
-        <Button Margin="638,16,10,0" Click="Exit" Height="42" VerticalAlignment="Top" Content="Выйти" Background="White" FontSize="16" />
+        <DataGrid x:Name="dtRequests" Margin="36,74,25,54"/>
+        <Button Margin="703,16,10,0" Click="Exit" Height="34" VerticalAlignment="Top" Content="Выйти" Background="White" FontSize="16" />
     </Grid>
 </Page>
