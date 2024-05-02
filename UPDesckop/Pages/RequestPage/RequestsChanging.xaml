@@ -8,24 +8,30 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="RequestsChanging">
 
-    <Grid Background="Gray">
-        <Label Content="Редактирование" Foreground="White" FontSize="26" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220" Margin="10,10,0,0"/>
+    <Grid Background="Aqua">
+        <Label Content="Редактирование" Foreground="Black" FontSize="26" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220" Margin="10,10,0,0"/>
 
         <Grid Grid.Column="0">
             <ComboBox x:Name="combIds" Margin="31,90,0,0" Height="42" VerticalAlignment="Top" SelectionChanged="combIds_SelectionChanged" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbnumberreq" Text="Номер заявки" FontSize="16" Margin="31,155,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbDate" Text="Дата" FontSize="16" Margin="31,204,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbEquipment" Text="Оборудование" FontSize="16" Margin="31,251,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbTypePromlem" Text="Тип проблемы" FontSize="16" Margin="31,298,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbDesc" Text="Описание проблемы" FontSize="16" Margin="31,345,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <TextBox x:Name="tbState" Text="Статус" FontSize="16" Margin="286,155,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="228"/>
-            <Label Content="Клиент" Foreground="White" FontSize="16" Margin="286,54,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
+            <TextBox x:Name="tbnumberreq" Text="" FontSize="16" Margin="221,155,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="192"/>
+            <TextBox x:Name="tbDate" Text="" FontSize="16" Margin="221,202,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="192"/>
+            <TextBox x:Name="tbEquipment" Text="" FontSize="16" Margin="221,251,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="191"/>
+            <TextBox x:Name="tbTypePromlem" Text="" FontSize="16" Margin="221,298,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="192"/>
+            <TextBox x:Name="tbDesc" Text="" FontSize="16" Margin="221,345,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="192"/>
+            <TextBox x:Name="tbState" Text="" FontSize="16" Margin="221,392,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="191"/>
+            <Label Content="Клиент" Foreground="Black" FontSize="16" Margin="286,54,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
             <ComboBox x:Name="combUsers" Margin="286,90,0,0" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="227"/>
-            <Button Margin="324,265,0,0" Click="Change" Height="42" VerticalAlignment="Top" Content="Изменить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
-            <Button Margin="324,317,0,0" Click="Delete" Height="42" VerticalAlignment="Top" Content="Удалить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
-            <Button Margin="324,212,0,0" Click="Add" Height="42" VerticalAlignment="Top" Content="Добавить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
-            <Button Margin="0,10,10,0" Click="Auth" Height="42" VerticalAlignment="Top" Content="Выйти" Background="White" FontSize="16" HorizontalAlignment="Right" Width="152" />
-            <Label Content="Заяка" Foreground="White" FontSize="16" Margin="31,54,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
+            <Button Margin="589,265,0,0" Click="Change" Height="42" VerticalAlignment="Top" Content="Изменить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
+            <Button Margin="589,324,0,0" Click="Delete" Height="42" VerticalAlignment="Top" Content="Удалить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
+            <Button Margin="589,0,0,0" Click="Add" Height="42" VerticalAlignment="Center" Content="Добавить" Background="White" FontSize="16" HorizontalAlignment="Left" Width="152" />
+            <Button Margin="0,10,10,0" Click="Auth" Height="31" VerticalAlignment="Top" Content="Выйти" Background="White" FontSize="16" HorizontalAlignment="Right" Width="98" />
+            <Label Content="Заявка" Foreground="Black" FontSize="16" Margin="31,54,0,0" Height="31" VerticalAlignment="Top" HorizontalAlignment="Left" Width="127"/>
+            <Label Content="Номер заявки" FontSize="20" HorizontalAlignment="Left" Margin="82,155,0,0" VerticalAlignment="Top"/>
+            <Label Content="Дата" FontSize="20" HorizontalAlignment="Left" Margin="162,209,0,0" VerticalAlignment="Top"/>
+            <Label Content="Оборудование" FontSize="20" HorizontalAlignment="Left" Margin="74,256,0,0" VerticalAlignment="Top"/>
+            <Label Content="Тип проблемы" FontSize="20" HorizontalAlignment="Left" Margin="79,301,0,0" VerticalAlignment="Top"/>
+            <Label Content="Описание проблемы" FontSize="20" HorizontalAlignment="Left" Margin="18,345,0,0" VerticalAlignment="Top"/>
+            <Label Content="Статус" FontSize="20" HorizontalAlignment="Left" Margin="147,392,0,0" VerticalAlignment="Top"/>
 
         </Grid>
 
